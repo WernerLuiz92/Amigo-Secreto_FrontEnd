@@ -16,12 +16,9 @@ const Container = styled.div`
 const FormDiv = styled.div`
     display: flex;
     flex-direction: row;
-    < parei aqui >
-    
+    align-items: center;
     justify-content: center;
-    min-height: 80vh;
-    color: ${({ theme }) => theme.colors.light};
-    padding-left: 80px;
+    flex-shrink: 0;
 `
 
 export default function HomePageHeader () {
@@ -31,7 +28,9 @@ export default function HomePageHeader () {
                 <Logo />
                 <h2>A melhor brincadeira do natal.</h2>
             </Container>
-
+            <FormDiv>
+                <NameEmailForm />
+            </FormDiv>
         </ImageContainer>
     )
 }
