@@ -33,9 +33,6 @@ export default function Steps () {
                 <StepCard 
                     title="3. Sorteie"
                     description="Quando todos estiverem prontos, realize o sorteio. Cada pessoa receberá por e-mail seu {Amigo}-Secreto."
-
-                    {***PAREI AQUI***}
-                    {*** 01:03:51 ***}
                 />
             </Container>
         </>

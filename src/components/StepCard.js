@@ -9,11 +9,11 @@ const Card = styled.div`
     border-radius: 10px;
 `
 
-export default function StepCard () {
+export default function StepCard ({ title, description }) {
     return (
         <Card>
-            <h3>1. Título</h3>
-            <p>Descrição do card.</p>
+            <h3>{title}</h3>
+            <p>{description}</p>
         </Card>
     )
 }
