@@ -7,8 +7,8 @@ const StyledButton = styled.button`
     font-size: 14px;
     display: block;
     border-radius: 50px;
-    margin: 10px 0:
-    background-color: ${({ theme }) => theme.colors.primaryLight};
+    margin: 10px 0;
+    background-color: ${({ theme }) => theme.colors.secondary};
 `
 
 export default function Button (props) {
